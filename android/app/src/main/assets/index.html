@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebView Example</title>
+        <script>
+            function callNative() {
+                window.NativeBridge.showToast("Hello from WebView!");
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="callNative()">Call Android Native Code</button>
+    </body>
+</html>
