@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+button {
+  background-color: #007bff;
+  font-weight: bold;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  margin: 40px auto;
+}
