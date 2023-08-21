@@ -1,10 +1,10 @@
-# Projeto Android Hibrido com o React
+# Projeto Android WebView-based com Frontend Remoto
 
 Este repositório contém as duas partes do projeto: a aplicação Android e o front-end React.
 
 ## Arquitetura da aplicação
 
-![Arquitetura Mobile Hibrida - by Heliandro](./arquitetura-mobile.png)
+![Arquitetura Mobile WebView-based - by Heliandro](./arquitetura-mobile-webview-based.png)
 
 obs: desconsiderar a parte do cloud provider. Este repositório só vai cobrir a interação entre o código nativo e o frontend em react.
 
