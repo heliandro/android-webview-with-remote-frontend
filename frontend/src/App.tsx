@@ -5,9 +5,9 @@ function App() {
 
   const callNativeToast = () => {
     if (window?.NativeBridge?.showToast)
-      return window.NativeBridge.showToast("Toast Android!!")
+      return window.NativeBridge.showToast("Toast Nativa do Android!!")
       
-    alert('Feature desabilitada no navegador!')  
+    alert('Feature desabilitada no navegador!')
   };
 
   return (
@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
         <h1>Minha Aplicação</h1>
       </header>
-      <button onClick={callNativeToast}>Chamar função Toast nativa!</button>
+      <button onClick={callNativeToast}>Chamar Toast Nativo!</button>
     </div>
   );
 }
